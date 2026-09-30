@@ -1,0 +1,732 @@
+CRITICAL - 2025-11-30 09:57:22 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:57:26 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:57:27 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:57:27 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:57:27 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:57:31 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 288.
+ 1 APPPATH\Views\admin\login.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php', 288)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(12): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 09:59:11 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 288.
+ 1 APPPATH\Views\admin\login.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php', 288)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin\Login.php(12): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 10:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 10:01:18 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('user/login', [], true)
+ 5 APPPATH\Controllers\User\Login.php(12): view('user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 10:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 10:58:24 --> Error: Class "CodeIgniter\Shield\Controllers\LoginController" not found
+[Method: GET, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Controllers\\UserLoginController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserLoginController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserLoginController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\UserLoginController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:02:01 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: user/login]
+in APPPATH\Views\user\login.php on line 214.
+ 1 APPPATH\Views\user\login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\user\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('/user/login', [], true)
+ 5 APPPATH\Controllers\UserLoginController.php(12): view('/user/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 11:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 11:06:44 --> Error: Class "Myth\Auth\Models\UserModel" not found
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:08:04 --> Error: Class "Myth\Auth\Password" not found
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:08:49 --> Error: Class "CodeIgniter\Shield\Authentication\Passwords\Password" not found
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:09:12 --> Error: Class "CodeIgniter\Shield\Authentication\Passwords\Password" not found
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 11:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 11:16:15 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 37.
+ 1 APPPATH\Controllers\UserLoginController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Controllers\\UserLoginController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-30 11:31:51 --> mysqli_sql_exception: Unknown column 'full_name' in 'field list' in C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\CI-UASGABUNGAN\app\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+#6 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+#7 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\CI-UASGABUNGAN\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\CI-UASGABUNGAN\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-30 11:31:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'full_name' in 'field list'
+[Method: POST, Route: user/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 2 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:31:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'full_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$uO3I1MByf8F3tzPCeef15OU7QdHSS..bxGSARcSPur7c2iAaZMtLm\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$uO3I1MByf8F3tzPCeef15OU7QdHSS..bxGSARcSPur7c2iAaZMtLm\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 4 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:31:52 --> [Caused by] mysqli_sql_exception: Unknown column 'full_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$uO3I1MByf8F3tzPCeef15OU7QdHSS..bxGSARcSPur7c2iAaZMtLm\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$uO3I1MByf8F3tzPCeef15OU7QdHSS..bxGSARcSPur7c2iAaZMtLm\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$uO3I1MByf8F3tzPCeef15OU7QdHSS..bxGSARcSPur7c2iAaZMtLm\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 5 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+ERROR - 2025-11-30 11:32:49 --> mysqli_sql_exception: Unknown column 'full_name' in 'field list' in C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\CI-UASGABUNGAN\app\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+#6 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+#7 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\CI-UASGABUNGAN\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\CI-UASGABUNGAN\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-30 11:32:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'full_name' in 'field list'
+[Method: POST, Route: user/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 2 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:32:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'full_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$50c3l9D3R1lRpPdtVXoJTOkXRC3aOh7NXLzzaYyUjPBni7.JAw1S2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$50c3l9D3R1lRpPdtVXoJTOkXRC3aOh7NXLzzaYyUjPBni7.JAw1S2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 4 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 11:32:49 --> [Caused by] mysqli_sql_exception: Unknown column 'full_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$50c3l9D3R1lRpPdtVXoJTOkXRC3aOh7NXLzzaYyUjPBni7.JAw1S2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$50c3l9D3R1lRpPdtVXoJTOkXRC3aOh7NXLzzaYyUjPBni7.JAw1S2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (\'namiradavinarm@gmail.com\', \'namiradavinarm@gmail.com\', \'davina\', \'$2y$10$50c3l9D3R1lRpPdtVXoJTOkXRC3aOh7NXLzzaYyUjPBni7.JAw1S2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `full_name`, `password_hash`) VALUES (:username:, :email:, :full_name:, :password_hash:)', [...], false)
+ 5 APPPATH\Controllers\UserLoginController.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->prosesRegister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 11:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 11:35:53 --> CSRF token verified.
+DEBUG - 2025-11-30 11:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 11:36:09 --> CSRF token verified.
+DEBUG - 2025-11-30 11:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 11:50:37 --> CSRF token verified.
+DEBUG - 2025-11-30 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 11:50:51 --> CSRF token verified.
+CRITICAL - 2025-11-30 11:50:51 --> Error: Call to a member function loginById() on null
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 11:54:06 --> CSRF token verified.
+CRITICAL - 2025-11-30 11:54:07 --> Error: Call to undefined function App\Controllers\auth()
+[Method: POST, Route: user/login]
+in APPPATH\Controllers\UserLoginController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 11:55:14 --> CSRF token verified.
+CRITICAL - 2025-11-30 11:55:15 --> Error: Call to a member function getProvider() on null
+[Method: POST, Route: user/login]
+in APPPATH\Config\Services.php on line 24.
+ 1 SYSTEMPATH\Config\BaseService.php(321): Config\Services::authentication()
+ 2 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 3 SYSTEMPATH\Common.php(995): CodeIgniter\Config\BaseService::get('authentication')
+ 4 APPPATH\Controllers\UserLoginController.php(44): service('authentication')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 11:56:20 --> CSRF token verified.
+CRITICAL - 2025-11-30 11:56:20 --> Error: Class "CodeIgniter\Shield\Config\Services" not found
+[Method: POST, Route: user/login]
+in APPPATH\Config\Services.php on line 24.
+ 1 SYSTEMPATH\Config\BaseService.php(321): Config\Services::authentication()
+ 2 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 3 SYSTEMPATH\Common.php(995): CodeIgniter\Config\BaseService::get('authentication')
+ 4 APPPATH\Controllers\UserLoginController.php(44): service('authentication')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:03:26 --> CSRF token verified.
+INFO - 2025-11-30 12:05:04 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:05:04 --> Error: Class "CodeIgniter\Shield\Config\Services" not found
+[Method: POST, Route: user/login]
+in APPPATH\Config\Services.php on line 24.
+ 1 SYSTEMPATH\Config\BaseService.php(321): Config\Services::authentication()
+ 2 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 3 SYSTEMPATH\Common.php(995): CodeIgniter\Config\BaseService::get('authentication')
+ 4 APPPATH\Controllers\UserLoginController.php(44): service('authentication')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:05:44 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:05:44 --> TypeError: Myth\Auth\Authentication\AuthenticationBase::login(): Argument #1 ($user) must be of type ?Myth\Auth\Entities\User, string given, called in C:\xampp\htdocs\CI-UASGABUNGAN\app\Controllers\UserLoginController.php on line 45
+[Method: POST, Route: user/login]
+in VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php on line 76.
+ 1 APPPATH\Controllers\UserLoginController.php(45): Myth\Auth\Authentication\AuthenticationBase->login('7')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-11-30 12:06:11 --> ParseError: syntax error, unexpected token "/"
+[Method: GET, Route: user/login]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:07:14 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:07:15 --> TypeError: Myth\Auth\Authentication\AuthenticationBase::login(): Argument #1 ($user) must be of type ?Myth\Auth\Entities\User, string given, called in C:\xampp\htdocs\CI-UASGABUNGAN\app\Controllers\UserLoginController.php on line 45
+[Method: POST, Route: user/login]
+in VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php on line 76.
+ 1 APPPATH\Controllers\UserLoginController.php(45): Myth\Auth\Authentication\AuthenticationBase->login('7')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:08:54 --> CSRF token verified.
+DEBUG - 2025-11-30 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:09:05 --> CSRF token verified.
+DEBUG - 2025-11-30 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:12:32 --> CSRF token verified.
+DEBUG - 2025-11-30 12:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:13:32 --> CSRF token verified.
+DEBUG - 2025-11-30 12:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:13:54 --> CSRF token verified.
+DEBUG - 2025-11-30 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:14:05 --> CSRF token verified.
+DEBUG - 2025-11-30 12:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 12:15:40 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 248.
+ 1 APPPATH\Views\admin\login.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php', 248)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\AdminLoginController.php(13): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:17:27 --> CSRF token verified.
+DEBUG - 2025-11-30 12:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:17:38 --> CSRF token verified.
+DEBUG - 2025-11-30 12:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:19:54 --> CSRF token verified.
+DEBUG - 2025-11-30 12:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:20:51 --> CSRF token verified.
+DEBUG - 2025-11-30 12:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:23:03 --> CSRF token verified.
+DEBUG - 2025-11-30 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:23:14 --> CSRF token verified.
+DEBUG - 2025-11-30 12:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:25:23 --> CSRF token verified.
+WARNING - 2025-11-30 12:25:23 --> [DEPRECATED] password_verify(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\AdminLoginController.php on line 34.
+ 1 APPPATH\Controllers\AdminLoginController.php(34): password_verify(Object(SensitiveParameterValue), '$2y$10$tPW1ujswYL9W4t6JGUtMuOcwRvYeBj4e6o6Z2WmpqJeGgjBl8PZo6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:25:45 --> CSRF token verified.
+DEBUG - 2025-11-30 12:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:28:03 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:28:04 --> Error: Class "CodeIgniter\Shield\Authentication\Passwords\Password" not found
+[Method: POST, Route: admin/login]
+in APPPATH\Controllers\AdminLoginController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:29:14 --> CSRF token verified.
+DEBUG - 2025-11-30 12:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:29:24 --> CSRF token verified.
+DEBUG - 2025-11-30 12:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:30:16 --> CSRF token verified.
+WARNING - 2025-11-30 12:30:16 --> [DEPRECATED] password_verify(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\AdminLoginController.php on line 35.
+ 1 APPPATH\Controllers\AdminLoginController.php(35): password_verify(Object(SensitiveParameterValue), '$2y$10$tPW1ujswYL9W4t6JGUtMuOcwRvYeBj4e6o6Z2WmpqJeGgjBl8PZo6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:32:22 --> CSRF token verified.
+WARNING - 2025-11-30 12:32:22 --> [DEPRECATED] password_verify(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\AdminLoginController.php on line 38.
+ 1 APPPATH\Controllers\AdminLoginController.php(38): password_verify(Object(SensitiveParameterValue), '$2y$10$tPW1ujswYL9W4t6JGUtMuOcwRvYeBj4e6o6Z2WmpqJeGgjBl8PZo6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:33:49 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:33:49 --> ErrorException: Attempt to read property "password_hash" on array
+[Method: POST, Route: admin/login]
+in APPPATH\Controllers\AdminLoginController.php on line 30.
+ 1 APPPATH\Controllers\AdminLoginController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password_hash" on array', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Controllers\\AdminLoginController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:34:00 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:34:00 --> ErrorException: Attempt to read property "password_hash" on array
+[Method: POST, Route: admin/login]
+in APPPATH\Controllers\AdminLoginController.php on line 30.
+ 1 APPPATH\Controllers\AdminLoginController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password_hash" on array', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Controllers\\AdminLoginController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:34:36 --> CSRF token verified.
+DEBUG - 2025-11-30 12:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:34:44 --> CSRF token verified.
+DEBUG - 2025-11-30 12:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 12:36:39 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 260.
+ 1 APPPATH\Views\admin\login.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php', 260)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\AdminLoginController.php(12): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 12:37:15 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 260.
+ 1 APPPATH\Views\admin\login.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php', 260)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\AdminLoginController.php(12): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:38:37 --> CSRF token verified.
+DEBUG - 2025-11-30 12:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:42:45 --> CSRF token verified.
+CRITICAL - 2025-11-30 12:42:45 --> ErrorException: Undefined array key "role"
+[Method: POST, Route: admin/login]
+in APPPATH\Controllers\AdminLoginController.php on line 30.
+ 1 APPPATH\Controllers\AdminLoginController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Controllers\\AdminLoginController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+INFO - 2025-11-30 12:43:23 --> CSRF token verified.
+DEBUG - 2025-11-30 12:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:43:36 --> CSRF token verified.
+DEBUG - 2025-11-30 12:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:45:08 --> CSRF token verified.
+WARNING - 2025-11-30 12:45:08 --> [DEPRECATED] password_verify(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\AdminLoginController.php on line 35.
+ 1 APPPATH\Controllers\AdminLoginController.php(35): password_verify(Object(SensitiveParameterValue), '$2y$10$tPW1ujswYL9W4t6JGUtMuOcwRvYeBj4e6o6Z2WmpqJeGgjBl8PZo6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminLoginController->loginAction()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-11-30 12:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-30 12:45:29 --> CSRF token verified.
+DEBUG - 2025-11-30 12:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 12:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,205 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                        url('/images/delizia-food.jpeg') center/cover no-repeat fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100%;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: #6c757d;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .brand-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #899957;
+            margin-bottom: 0.5rem;
+        }
+
+        .login-subtitle {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        .admin-badge {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .form-input {
+            padding: 1rem;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #f27024;
+            box-shadow: 0 0 0 3px rgba(242, 112, 36, 0.1);
+        }
+
+        .login-btn {
+            background: #f27024;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 0.5rem;
+        }
+
+        .login-btn:hover {
+            background: #d95d00;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(242, 112, 36, 0.4);
+        }
+
+        .login-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-link {
+            color: #6c757d;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-link:hover {
+            color: #f27024;
+        }
+
+        .security-notice {
+            background: #e8f4fd;
+            border: 1px solid #3498db;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .security-text {
+            color: #2c3e50;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .security-icon {
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 0 0.25rem;
+        }
+
+        .invalid-feedback {
+            color: #dc3545;
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .form-input.is-invalid {
+            border-color: #dc3545;
+        }
+
+        .form-input.is-invalid + .invalid-feedback {
+            display: block;
+        }
+
+        @media (max-width: 480px) {
+            .login-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .brand-title {
+                font-size: 1.8rem;
+            }
+
+            .form-input {
+                padding: 0.875rem;
+            }
+
+            .login-btn {
+                padding: 0.875rem 1.5rem;
+            }
+        }
+
+        @media (max-resolution: 1dppx) {
+            body {
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                            #f8f9fa;
+            }
+        }

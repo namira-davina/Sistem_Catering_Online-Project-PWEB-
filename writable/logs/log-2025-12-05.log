@@ -1,0 +1,409 @@
+DEBUG - 2025-12-05 13:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 13:33:35 --> CSRF token verified.
+DEBUG - 2025-12-05 13:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 13:45:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: admin/pesanan/update_status]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/pesanan/update_status', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-12-05 13:46:00 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: admin/pesanan/update_status]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/pesanan/update_status', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-12-05 13:47:14 --> ErrorException: Undefined array key "menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 26.
+ 1 APPPATH\Views\admin\pesanan_baru.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(22): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 13:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 13:52:33 --> ErrorException: Undefined array key "jumlah"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 32.
+ 1 APPPATH\Views\admin\pesanan_baru.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(26): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 13:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 13:53:21 --> ErrorException: Undefined array key "total_harga"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 33.
+ 1 APPPATH\Views\admin\pesanan_baru.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(26): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 13:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 13:53:41 --> ErrorException: Undefined array key "total"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 33.
+ 1 APPPATH\Views\admin\pesanan_baru.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(26): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+ERROR - 2025-12-05 13:55:40 --> mysqli_sql_exception: Unknown column 'menu.id' in 'on clause' in C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `orders`...', 0)
+#1 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\xampp\htdocs\CI-UASGABUNGAN\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\xampp\htdocs\CI-UASGABUNGAN\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI-UASGABUNGAN\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CI-UASGABUNGAN\app\Controllers\Admin\Pesanan.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+#8 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#9 C:\xampp\htdocs\CI-UASGABUNGAN\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\CI-UASGABUNGAN\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\CI-UASGABUNGAN\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\CI-UASGABUNGAN\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-05 13:55:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu.id' in 'on clause'
+[Method: GET, Route: admin/pesanan_baru]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\Pesanan.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-12-05 13:55:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\Pesanan.php(17): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-12-05 13:55:40 --> [Caused by] mysqli_sql_exception: Unknown column 'menu.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu`.`nama_menu` AS `menu_name`, `menu`.`harga` AS `menu_price`, (menu.harga * orders.jumlah_paket) AS total_harga
+FROM `orders`
+JOIN `menu` ON `menu`.`id` = `orders`.`menu_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pesanan.php(17): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 13:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 13:59:23 --> ErrorException: Undefined array key "menu_name"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu_name"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:00:01 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:46 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:48 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:48 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:49 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:49 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:05:49 --> ErrorException: Undefined array key "nama_menu"
+[Method: GET, Route: admin/pesanan_baru]
+in APPPATH\Views\admin\pesanan_baru.php on line 30.
+ 1 APPPATH\Views\admin\pesanan_baru.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_menu"', 'C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\app\\Views\\admin\\pesanan_baru.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/pesanan_baru', [], true)
+ 5 APPPATH\Controllers\Admin\Pesanan.php(15): view('admin/pesanan_baru', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:07:27 --> CSRF token verified.
+DEBUG - 2025-12-05 14:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:07:33 --> CSRF token verified.
+DEBUG - 2025-12-05 14:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:07:43 --> CSRF token verified.
+DEBUG - 2025-12-05 14:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:07:50 --> CSRF token verified.
+DEBUG - 2025-12-05 14:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:09:10 --> CSRF token verified.
+DEBUG - 2025-12-05 14:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-05 14:11:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: admin/pesanan/update_status/15]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/pesanan/update_status/15', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+CRITICAL - 2025-12-05 14:12:20 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: admin/pesanan/update_status/15]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/pesanan/update_status/15', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CI-UASGABUNGAN\\public\\index.php')
+DEBUG - 2025-12-05 14:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:12:47 --> CSRF token verified.
+DEBUG - 2025-12-05 14:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:13:05 --> CSRF token verified.
+DEBUG - 2025-12-05 14:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:20:37 --> CSRF token verified.
+DEBUG - 2025-12-05 14:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:21:19 --> CSRF token verified.
+DEBUG - 2025-12-05 14:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:21:36 --> CSRF token verified.
+DEBUG - 2025-12-05 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:30:54 --> CSRF token verified.
+DEBUG - 2025-12-05 14:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:31:04 --> CSRF token verified.
+DEBUG - 2025-12-05 14:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:31:17 --> CSRF token verified.
+DEBUG - 2025-12-05 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:31:24 --> CSRF token verified.
+DEBUG - 2025-12-05 14:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:35:19 --> CSRF token verified.
+DEBUG - 2025-12-05 14:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:35:28 --> CSRF token verified.
+DEBUG - 2025-12-05 14:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:39:54 --> CSRF token verified.
+DEBUG - 2025-12-05 14:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:40:11 --> CSRF token verified.
+DEBUG - 2025-12-05 14:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:40:23 --> CSRF token verified.
+DEBUG - 2025-12-05 14:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:47:01 --> CSRF token verified.
+DEBUG - 2025-12-05 14:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:47:17 --> CSRF token verified.
+DEBUG - 2025-12-05 14:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:52:05 --> CSRF token verified.
+DEBUG - 2025-12-05 14:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:52:12 --> CSRF token verified.
+DEBUG - 2025-12-05 14:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-05 14:52:17 --> CSRF token verified.
+DEBUG - 2025-12-05 14:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-05 14:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
